@@ -28,11 +28,13 @@
             type="tel"/>
         <br/>
         <label>Message:</label>
-        <textarea id="message" placeholder="Your thoughts here :)"></textarea>
+        <textarea id="message-area" placeholder="Your thoughts here :)"></textarea>
         <br/>
         <input id="submit" type="button" value="Send It!"/>
         </form>
     </div>
-    <script type="text/javascript" href="jquery_form_validation.js" charset="utf-8"></script>
+    <!-- jQuery must be imported first before my JS file can reference it-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="jquery_form_validation.js" charset="utf-8"></script>
 </body>
 </html>
